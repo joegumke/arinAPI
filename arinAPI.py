@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 
-#Dependency -> Maxmind Geo2Country DB . Requires a free account.
+#Dependency -> Maxmind Geo2Country DB locally in the Directory you execute.
+# Requires a free maxmind account to download the mmdb
+
+# Requires install of https://github.com/maxmind/MaxMind-DB-Reader-python
+# pip install maxminddb
+
 #Usage: arinRPI.py $IP 
 
 import maxminddb
